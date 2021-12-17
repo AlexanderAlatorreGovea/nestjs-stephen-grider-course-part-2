@@ -1,0 +1,13 @@
+### List all messages
+GET  http://localhost:8081/messages
+
+### Create a new message
+POST  http://localhost:8081/messages
+content-type: application/json
+
+{
+    "content": "asdfdafsdfsasdfa"
+}
+
+### Get one
+GET http://localhost:8081/messages/2342
