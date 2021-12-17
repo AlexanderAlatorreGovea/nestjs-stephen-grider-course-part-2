@@ -12,7 +12,7 @@ describe('MessagesController', () => {
     controller = module.get<MessagesController>(MessagesController);
   });
 
-  it('should be defined', () => {
+  it('has a module', () => {
     expect(controller).toBeDefined();
   });
 });
