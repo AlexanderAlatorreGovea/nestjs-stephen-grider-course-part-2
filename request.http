@@ -10,4 +10,4 @@ content-type: application/json
 }
 
 ### Get one
-GET http://localhost:8081/messages/2342
+GET http://localhost:8081/messages/70
